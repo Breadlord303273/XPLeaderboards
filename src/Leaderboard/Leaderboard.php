@@ -51,8 +51,8 @@ class Leaderboard extends PluginBase implements Listener{
 		}
 	}
 	
-	public function updateXp($player) {
-		$this->exp->set($player->getName(), $player->getXpLevel());
+	public function updateXP($player) {
+		$this->exp->set($player->getName(), $player->getXPLevel());
 		$this->exp->save();
 		$this->onTopLevels();
     }
