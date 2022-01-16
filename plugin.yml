@@ -1,4 +1,4 @@
-name: XP Leaderboard
+name: XPLeaderboard
 main: Leaderboard\Leaderboard
 api: 3.0.0
 version: 1.0.0
